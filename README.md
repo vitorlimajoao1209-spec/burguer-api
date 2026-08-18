@@ -1,6 +1,6 @@
-![Python](https://shields.io)
-
-
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi&labelColor=white&color=009485)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat&logo=sqlite&logoColor=white)
 # burguer-api
 API para gerenciamento de hamburgueria com FastAPI, SQLite e controle de estoque | Burger shop management API built with Python, FastAPI &amp; SQLite.
 ---
