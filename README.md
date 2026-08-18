@@ -50,3 +50,23 @@ A RESTful API designed to streamline day-to-day operations for a burger shop. Th
 ## 5. Tecnologias Utilizadas / Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi&labelColor=white&color=009485)![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat&logo=sqlite&logoColor=white) ![Uvicorn](https://img.shields.io/badge/Uvicorn-44813B?style=flat&logo=uvicorn&logoSize=white)
+## 📌 6. Endpoints da API / API Endpoints
+
+Abaixo estão as principais rotas disponíveis na aplicação. Você pode testá-las interativamente acessando `/docs` com o projeto rodando.
+
+| Método | Rota | Descrição (PT-BR) | Description (EN) |
+| :--- | :--- | :--- | :--- |
+| **GET** | `/login` | Autentica a sessão com as credenciais padrão. | Authenticates session with default credentials. |
+| **POST** | `/nova_senha` | Altera a senha de acesso com validação. | Changes access password with validation. |
+| **GET** | `/produtos` | Lista todos os lanches cadastrados. | Lists all registered items. |
+| **POST** | `/produtos` | Adiciona um novo item ao estoque. | Adds a new item to inventory. |
+| **PUT** | `/produtos/{id}` | Atualiza a quantidade de um produto. | Updates a product's quantity. |
+| **DELETE**| `/produtos/{id}` | Remove um item do sistema. | Removes an item from the system. |
+| **POST** | `/vendas` | Registra venda e abate do estoque. | Records a sale and reduces stock. |
+| **GET** | `/historico` | Exibe o relatório de logs e vendas. | Displays log and sales report. |
+
+### 📄 7. Licença e Propósito / License & Purpose
+
+**PT-BR:** Este projeto foi desenvolvido exclusivamente para fins de aprendizado próprio e demonstração de habilidades. Sinta-se livre para estudar o código e reutilizar os comandos, a lógica do FastAPI ou a sintaxe do Python em suas próprias aplicações. Contudo, **é proibido copiar e colar o projeto de forma idêntica**. Isso inclui replicar toda a estrutura da hamburgueria exatamente igual, com as mesmas rotas, definições de estoque e nomes inventados. Use o código para aprender os comandos, mas crie o seu próprio projeto. 
+
+**EN:** This project was developed exclusively for self-learning purposes and to demonstrate skills. Feel free to study the code and reuse the commands, FastAPI logic, or Python syntax in your own applications. However, **copying and pasting the project identically is prohibited**. This includes replicating the entire burger shop structure exactly the same, with the same routes, inventory definitions, and invented names. Use the code to learn the commands, but build your own project.
