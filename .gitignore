@@ -1,0 +1,27 @@
+# [PT] Arquivos de banco de dados local (SQLite)
+# [EN] Local database files (SQLite)
+*.db
+*.sqlite3
+
+# [PT] Pastas temporárias que o Python cria sozinho
+# [EN] Temporary folders created automatically by Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# [PT] Pastas de ambiente virtual (se você usar venv ou virtualenv)
+# [EN] Virtual environment folders (if using venv or virtualenv)
+.venv/
+venv/
+env/
+ENV/
+
+# [PT] Arquivos de configuração do sistema operacional
+# [EN] Operating system configuration files
+.DS_Store
+Thumbs.db
+
+# [PT] Arquivos de credenciais secretas (caso use no futuro)
+# [EN] Secret credentials files (for future use)
+.env
